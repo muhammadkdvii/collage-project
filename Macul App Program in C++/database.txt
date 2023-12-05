@@ -1,0 +1,3 @@
+
+ 1 beras 12 0
+ 2 Jagung 15 1
