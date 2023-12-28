@@ -1,0 +1,59 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("asset/bg1.png") center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5%;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.bookshelf {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.shelf {
+  flex: 1;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.book button {
+  margin-left: 0.5rem;
+}
+
+form {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+form input,
+form select,
+form button {
+  margin: 0.5rem;
+}

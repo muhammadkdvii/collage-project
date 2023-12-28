@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="Asset/logo.png" />
+    <title>Perpustakaan Saya</title>
+  </head>
+  <body>
+    <header>
+      <h1>Perpustakaan Saya</h1>
+    </header>
+
+    <div class="container">
+      <div class="bookshelf">
+        <div class="shelf" id="unfinishedShelf">
+          <h2>Belum Selesai Dibaca</h2>
+        </div>
+        <div class="shelf" id="finishedShelf">
+          <h2>Selesai Dibaca</h2>
+        </div>
+      </div>
+
+      <form id="addBookForm">
+        <label for="title">Judul:</label>
+        <input type="text" id="title" required />
+
+        <label for="author">Penulis:</label>
+        <input type="text" id="author" required />
+
+        <label for="year">Tahun Terbit:</label>
+        <input type="number" id="year" required />
+
+        <label for="isComplete">Status:</label>
+        <select id="isComplete">
+          <option value="false">Belum Selesai Dibaca</option>
+          <option value="true">Selesai Dibaca</option>
+        </select>
+
+        <button type="submit">Tambahkan Buku</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
